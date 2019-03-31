@@ -1,8 +1,3 @@
-import imageio as imio
-import numpy as np
-import matplotlib.pyplot as plt
-import scipy.ndimage as scnd
-from skimage.transform import resize as skresize
 import argparse
 from posterizer import Posterize
 

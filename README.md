@@ -29,3 +29,13 @@ You can try for various values of sigma for Gaussian smoothing in the preprocess
 <img src="img/varying_sigma.png" width=400px>
 
 One of my friends pointed out that this method was similar to [Otsu's method](https://en.wikipedia.org/wiki/Otsu's_method).
+
+## Required packages
+
+These are the versions of the packages used while development.
+
+* numPy        1.15.4
+* scipy        1.1.0
+* scikit-image 0.14.1
+* matplotlib   2.2.3
+* imageio      2.4.1
