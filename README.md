@@ -16,7 +16,7 @@ Clone this repo using `git clone https://github.com/gautamsreekumar/posterize.gi
 
 ## Results
 
-Like mentioned before, this does not work perfectly well for all portrait images. Preferrably, the background better be a uniform colour which is neither too bright nor too dark compared to other colours in the image. Below are some results on some stock images taken from [Pexels](https://www.pexels.com/search/face/). All images were rescaled to have height of 512px while maintaining the aspect ratio. Some bad examples are purposefully included to give you a rough idea of where this will not work.
+Like mentioned before, this does not work perfectly well for all portrait images. Preferrably, the background better be a uniform colour which is neither too bright nor too dark compared to other colours in the image. Below are some results on some stock images taken from [Pexels](https://www.pexels.com/search/face/). All images were rescaled to have height of 512px while maintaining the aspect ratio. Some bad examples are purposefully included to give you a rough idea of where this will not work. You can try different values for maximum number of iterations and sigma values and see what works best.
 
 <img src="img/outputs/output1.jpg" width=400px>
 <img src="img/outputs/output2.jpg" width=400px>
