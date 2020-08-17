@@ -64,7 +64,8 @@ class Posterize(object):
 			self.th += self.alpha*best_inc
 
 			self.alpha = 0.9999*self.alpha
-			print("Step {0}/{1} GM {0:1.2E}".format(step, self.max_iter, gm))
+			if step % 10 == 0:
+				print("Step {0}/{1} GM {0:1.2E}".format(step, self.max_iter, gm))
 
 			if prev_gm == np.max(gm):
 				break
